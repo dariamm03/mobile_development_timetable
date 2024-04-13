@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Timetable for HSE FE</string>
+    <string name="button_students">РАСПИСАНИЕ ДЛЯ СТУДЕНТОВ</string>
+    <string name="button_teachers">РАСПИСАНИЕ ДЛЯ ПРЕПОДАВАТЕЛЕЙ</string>
+    <string name="button_day">РАСПИСАНИЕ НА ДЕНЬ</string>
+    <string name="button_week">РАСПИСАНИЕ НА НЕДЕЛЮ</string>
+    <string name="choice_teacher">Выберите преподавателя:</string>
+    <string name="choice_group">Выберите группу:</string>
+    <string name="now">Сейчас:</string>
+    <string name="time">Текущее время</string>
+    <string name="status">Статус</string>
+    <string name="subject">Предмет</string>
+    <string name="cabinet">Кабинет</string>
+    <string name="corpus">Корпус</string>
+    <string name="teacher">Преподаватель</string>
+    <string name="settings">НАСТРОЙКИ</string>
+    <string name="takephoto">СДЕЛАТЬ ФОТО</string>
+    <string name="light">Текущая освещённость:</string>
+    <string name="save">СОХРАНИТЬ</string>
+    <string name="sensor">Освещённость (лк): </string>
+    <string name="rules">Нужно предоставить права</string>
+    <string name="rulesforphoto">Для снятия фото нужно предоставить права на фото</string>
+    <string name="createfile">Create file</string>
+    <string name="startactivity">Start activity</string>
+    <string name="takepicture">Сначала сделайте изображение</string>
+    <string name="savesuccess">Image saved successfully:</string>
+    <string name="error">Error saving image: </string>
+    <string name="errorclose">"Error closing file output stream: </string>
+    <string name="perm">Permission Denied</string>
+    <string name="accuracyUnreliable">Accelerometer accuracy is unreliable</string>
+    <string name="accuracy">Accelerometer accuracy is now: </string>
+    <string name="para">Идёт пара/нет пар</string>
+</resources>

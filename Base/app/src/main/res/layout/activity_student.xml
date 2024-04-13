@@ -1,0 +1,143 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentActivity">
+
+
+    <LinearLayout
+        style="@style/LabelStyle"
+        android:layout_width="381dp"
+        android:layout_height="644dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textViewTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            style="@style/LabelStyle"
+            android:text="@string/choice_group" />
+
+        <Spinner
+            android:id="@+id/groupList"
+            android:layout_width="145dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/timeLabelStudent"
+                style="@style/LabelStyle"
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/now" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                style="@style/ValueStyle"
+                android:text="@string/time" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/status"
+            style="@style/ValueStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/status" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/subject"
+                style="@style/ValueStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/subject" />
+
+            <TextView
+                android:id="@+id/cabinet"
+                style="@style/ValueStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cabinet" />
+
+            <TextView
+                android:id="@+id/corp"
+                style="@style/ValueStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/corpus" />
+
+            <TextView
+                android:id="@+id/teacher"
+                style="@style/ValueStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/teacher" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/schedule_day"
+                style="@style/ButtonStyle1"
+                android:layout_width="0dp"
+                android:layout_height="37dp"
+                android:layout_marginEnd="17dp"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimary"
+                android:text="@string/button_day"
+                android:textColor="?attr/colorAccent" />
+
+            <Button
+                android:id="@+id/schedule_week"
+                style="@style/ButtonStyle1"
+                android:layout_width="0dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="17dp"
+                android:layout_weight="1"
+                android:background="?attr/colorPrimary"
+                android:text="@string/button_week"
+                android:textColor="?attr/colorAccent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

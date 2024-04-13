@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Основные цвета -->
+
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Основной цвет для панели инструментов -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Темный вариант основного цвета -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <!-- Вторичный цвет для элементов интерфейса -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <!-- Темный вариант вторичного цвета -->
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <!-- Белый цвет -->
+        <item name="colorAccent">@color/colorWhite</item>
+
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+
+    <style name="ButtonStyle1" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">230dp</item>
+        <item name="android:layout_height">36dp</item>
+    </style>
+
+    <style name="ButtonStyle2" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">269dp</item>
+        <item name="android:layout_height">36dp</item>
+    </style>
+
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#003399</item>
+    </style>
+
+    <style name="MyValue" parent="android:TextAppearance">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Новое -->
+    <style name="CustomLinearLayoutStyle">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="MyLabels" parent="android:TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="ScheduleTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryVariant</item>
+    </style>
+</resources>
